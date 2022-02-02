@@ -1,0 +1,18 @@
+.header__container {
+    height: 10vh;
+    padding: 2rem;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav__container {
+    margin-left: auto;
+}
+
+@media (max-width: 450px) {
+    .nav__container {
+        display: none;
+    }
+}
