@@ -3,7 +3,6 @@ body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
-    text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
 
@@ -35,13 +34,6 @@ body {
     margin-bottom: 1rem;
 }
 
-.slogan {
-    font-size: clamp(2rem, 10vw - 3rem, 4rem);
-    position: absolute;
-    bottom: 0;
-    right: 1rem;
-}
-
 .hero__secondary--text {
     font-size: clamp(1.5rem, 7.5vw - 1.5rem, 2rem);
     width: 50%;
@@ -57,6 +49,12 @@ body {
 
 .btn__outlined {
     color: white !important;
+}
+
+.social-links {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
 }
 
 
@@ -104,16 +102,12 @@ body {
     width: 100%;
 }
 
+
+/* 
 .installation__iframe {
     width: 100%;
     height: 100%;
     border: none !important;
-}
-
-
-/* 
-.installation__content--container {
-    width: 100%;
 } */
 
 .installation__content {
