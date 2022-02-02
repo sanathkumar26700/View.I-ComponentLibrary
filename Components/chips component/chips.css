@@ -1,0 +1,61 @@
+.chips-container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+
+    font-size: 2rem;
+}
+
+.stacked{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25rem;
+}
+
+
+.chip{
+    list-style-type: none;
+    padding: 0.5rem 2rem ;
+    border-radius: 25rem;
+    background-color: #4b4b4b25;
+}
+
+.chip-container__icon{
+    display: flex; 
+    align-items: center;
+}
+
+.chip-icon{
+    margin-right: 1rem;
+}
+
+.icon-x{
+    margin-left: auto;
+}
+
+.chip:hover{
+    background-color: #4b4b4b3d;
+    color: black;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+}
+
+.blue:hover{
+    background-color: rgb(0, 0, 168);
+    color: white;
+}
+
+.hotpink{
+    background-color: hotpink;
+    color: white;
+}
+
+.hotpink:hover{
+    background-color: rgb(255, 64, 159);
+    color: white;
+}
+
+

@@ -1,0 +1,116 @@
+.avatar-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    display: flex;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background-color: rgba(119, 119, 119, 0.226);
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.avatar>img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.avatar-xl {
+    width: 20rem;
+    height: 20rem;
+}
+
+.avatar-lg {
+    height: 16rem;
+    width: 16rem;
+}
+
+.avatar-std {
+    height: 12rem;
+    width: 12rem;
+}
+
+.avatar-sm {
+    height: 8rem;
+    width: 8rem;
+}
+
+.avatar-xsm {
+    height: 5rem;
+    width: 5rem;
+}
+
+.avatar-badge {
+    position: relative;
+}
+
+.status-badge {
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid white;
+}
+
+.badge-online {
+    background-color: green;
+}
+
+.badge-dnd {
+    background-color: #777;
+}
+
+.badge-offline {
+    background-color: red;
+}
+
+.badge-yellow {
+    background-color: yellow;
+}
+
+.avatar-xl .status-badge {
+    right: 1.5rem;
+    bottom: 1.5rem;
+    height: 2.5rem;
+    min-width: 2.5rem;
+}
+
+.avatar-lg .status-badge {
+    right: 1rem;
+    bottom: 1.5rem;
+    height: 2.5rem;
+    min-width: 2.5rem;
+}
+
+.avatar-std .status-badge {
+    height: 2rem;
+    min-width: 2rem;
+    right: 0.5rem;
+    bottom: 1rem;
+}
+
+.avatar-sm .status-badge {
+    height: 1.5rem;
+    min-width: 1.5rem;
+    right: 0.2rem;
+    bottom: 0.5rem;
+}
+
+.avatar-xsm .notification-badge {
+    right: -1rem;
+    top: -1rem;
+    height: 3rem;
+    min-width: 3rem;
+    font-size: 1.75rem;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

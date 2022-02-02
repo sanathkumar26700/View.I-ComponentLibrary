@@ -1,0 +1,105 @@
+.btn {
+    padding: 0.2rem 2rem;
+    font-size: 2rem;
+    margin: 1rem;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.btn__primary {
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn__secondary {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: #777;
+    opacity: 0.6;
+}
+
+.btn__outlined {
+    border: 0.35rem solid var(--primary-color);
+    color: var(--primary-color);
+    transition: background-color 2s;
+    /*not working*/
+}
+
+.btn__underlined {
+    border-bottom: 0.35rem solid transparent;
+    color: var(--primary-color);
+    border-radius: 0;
+}
+
+.btn__icon-left {
+    margin-right: 1rem;
+}
+
+.btn__icon-right {
+    margin-left: 1rem;
+}
+
+.btn__floating-action {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: 2rem;
+    font-size: 2rem;
+    margin: 1rem;
+    border: none;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* -------------------Special effects-----------------*/
+
+
+/*Add transitions*/
+
+.btn__primary--animated:hover {
+    background-color: var(--primary-color-hover);
+    transform: translateY(-2px);
+}
+
+.btn__primary--animated:active {
+    box-shadow: 0px 0px 0px white;
+    transform: translateY(2px);
+}
+
+.btn__secondary--animated:hover {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+.btn__secondary--animated:active {
+    box-shadow: 0px 0px 0px white;
+    transform: translateY(2px);
+}
+
+.btn__outlined--animated:hover {
+    background-color: var(--primary-color);
+    color: black;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.btn__outlined--animated:active {
+    transform: translateY(2px);
+}
+
+.btn__underlined--animated:hover {
+    border-bottom: 0.35rem solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 0;
+}

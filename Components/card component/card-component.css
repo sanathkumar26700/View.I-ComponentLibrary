@@ -1,0 +1,91 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    flex-basis: clamp(auto, min-content);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.212);
+    font-family: roboto, arial, helvetica;
+    background-color: white;
+}
+
+.card__description-primary,
+.card__description-secondary,
+.card__actions {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.img {
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card__description-author,
+.card__description-secondary {
+    color: rgba(0, 0, 0, .54);
+}
+
+.card__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background: none;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    color: #6200ee;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.5rem 0.9rem;
+    transition: background-color 2s ease-in;
+}
+
+#icon {
+    /*id because font awsome loads faster than the css file*/
+    color: rgba(0, 0, 0, .54);
+    font-size: 2rem;
+    height: 4rem;
+    width: 4rem;
+    padding: 1.4rem;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover,
+.card__main:hover,
+#icon:hover {
+    background-color: #d6d6d6;
+}
+
+.btn:active,
+.card__main:active,
+.icon:active {
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+
+/*----- Horizontal card -----*/
+
+.horizontal {
+    display: flex;
+}
+
+.horizontal>* {
+    flex-basis: 100%;
+}
+
+.img-horizontal {
+    width: 50%;
+    border-radius: 0.5rem 0 0 0;
+}
+
+.hide {
+    display: none;
+}
