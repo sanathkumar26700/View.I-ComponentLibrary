@@ -11,4 +11,5 @@
 @import './CSS/pages/documentation.css';
 @import './CSS/pages/landing-page.css';
 @import './CSS/utilities/utilities.css';
+@import './CSS/abstracts/colors.css';
 @import './Components/components.css';
