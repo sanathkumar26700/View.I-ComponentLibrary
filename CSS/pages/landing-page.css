@@ -102,21 +102,7 @@ body {
     width: 100%;
 }
 
-
-/* 
-.installation__iframe {
-    width: 100%;
-    height: 100%;
-    border: none !important;
-} */
-
 .installation__content {
     font-size: clamp(1.5rem, 5vw - 1.5rem, 3rem);
     font-weight: 100;
 }
-
-
-/* .installation__content {
-    font-size: 4rem;
-    color: var(--primary-color);
-} */
