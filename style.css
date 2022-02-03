@@ -10,5 +10,5 @@
 @import './CSS/layout/iframe.css';
 @import './CSS/pages/documentation.css';
 @import './CSS/pages/landing-page.css';
-@import './CSS/utilities/';
+@import './CSS/utilities/utilities.css';
 @import './Components/components.css';
