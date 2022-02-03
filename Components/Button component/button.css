@@ -27,8 +27,6 @@
 .btn__outlined {
     border: 0.35rem solid var(--primary-color);
     color: var(--primary-color);
-    transition: background-color 2s;
-    /*not working*/
 }
 
 .btn__underlined {
@@ -70,6 +68,7 @@
 .btn__primary--animated:hover {
     background-color: var(--primary-color-hover);
     transform: translateY(-2px);
+    transition: background-color 0.2s;
 }
 
 .btn__primary--animated:active {
@@ -92,6 +91,7 @@
     color: black;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
+    transition: background-color 0.2s;
 }
 
 .btn__outlined--animated:active {
@@ -102,4 +102,5 @@
     border-bottom: 0.35rem solid var(--primary-color);
     color: var(--primary-color);
     border-radius: 0;
+    transition: border-bottom 0.2s;
 }
