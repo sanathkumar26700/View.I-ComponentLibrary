@@ -13,8 +13,8 @@
 }
 
 .alert-primary {
-    background-color: #7fd2e6;
-    color: #29438b;
+    background-color: var(--primary-color);
+    color: var(--primary-color-dark);
 }
 
 .alert-secondary {
