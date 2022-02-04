@@ -1,0 +1,26 @@
+.main__container--sidebar {
+    padding: 1.5rem 2rem;
+    font-size: 3rem;
+    top: 0rem;
+    height: calc(100vh - 2rem);
+}
+
+.sidebar--listitem {
+    font-size: 75%;
+    padding: 0.5rem 1rem 0.5rem 3rem;
+    display: grid;
+}
+
+.sidebar--listitem-title {
+    border-bottom: 1.5px solid var(--primary-color);
+}
+
+.sidebar--listitem:hover {
+    background-color: var(--light-black-bg);
+    color: white;
+}
+
+.sidebar--listitem:active {
+    background-color: var(--light-black-bg);
+    color: var(--primary-color);
+}
