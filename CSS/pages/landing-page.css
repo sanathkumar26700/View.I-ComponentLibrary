@@ -91,9 +91,6 @@ body {
 
 .installation__content--title {
     color: var(--primary-color);
-    font-size: clamp(3rem, 10vw - 4rem, 5.25rem);
-    margin-bottom: 1rem;
-    font-weight: 300;
     grid-area: title;
 }
 
