@@ -1,4 +1,4 @@
-footer {
+.footer--container {
     background-color: #333;
     padding: 0.5rem;
     font-size: 80%;
@@ -9,4 +9,9 @@ footer {
     font-size: clamp(2rem, 10vw - 3rem, 4rem);
     color: white;
     font-weight: 200;
+}
+
+.main__container--footer {
+    display: flex;
+    justify-content: space-between;
 }
