@@ -1,14 +1,16 @@
 .main__container--sidebar {
     padding: 1.5rem 2rem;
     font-size: 3rem;
-    top: 0rem;
     height: calc(100vh - 2rem);
+    position: sticky;
+    top: 0;
 }
 
 .sidebar--listitem {
     font-size: 75%;
     padding: 0.5rem 1rem 0.5rem 3rem;
     display: grid;
+    cursor: pointer;
 }
 
 .sidebar--listitem-title {
