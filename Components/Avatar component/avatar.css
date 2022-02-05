@@ -1,19 +1,9 @@
-.avatar-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2.5rem;
-    justify-content: center;
-    align-items: center;
-}
-
 .avatar {
     display: flex;
     border-radius: 50%;
     flex-shrink: 0;
-    background-color: rgba(119, 119, 119, 0.226);
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
 }
 
 .avatar>img {
@@ -21,32 +11,42 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 2px solid white;
+    border: 3px solid white;
+}
+
+.avatar-text {
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
 }
 
 .avatar-xl {
-    width: 20rem;
-    height: 20rem;
+    height: var(--size-xl);
+    width: var(--size-xl);
+    font-size: 10rem;
 }
 
 .avatar-lg {
-    height: 16rem;
-    width: 16rem;
+    height: var(--size-lg);
+    width: var(--size-lg);
+    font-size: 8rem;
 }
 
 .avatar-std {
-    height: 12rem;
-    width: 12rem;
+    height: var(--size-std);
+    width: var(--size-std);
+    font-size: 6rem;
 }
 
 .avatar-sm {
-    height: 8rem;
-    width: 8rem;
+    height: var(--size-sm);
+    width: var(--size-sm);
+    font-size: 4rem;
 }
 
 .avatar-xsm {
-    height: 5rem;
-    width: 5rem;
+    height: var(--size-xsm);
+    width: var(--size-xsm);
+    font-size: 2rem;
 }
 
 .avatar-badge {
