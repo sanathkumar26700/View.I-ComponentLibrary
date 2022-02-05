@@ -1,15 +1,11 @@
 .header__container {
     height: 10vh;
     padding: 3rem;
-    width: 95%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.header__container--border-bottom {
-    border-bottom: 2px solid var(--light-black-bg);
+    z-index: 9999;
 }
 
 .nav__container {
