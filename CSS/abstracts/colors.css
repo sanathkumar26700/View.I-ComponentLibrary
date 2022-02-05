@@ -1,0 +1,3 @@
+.light-black--bg {
+    background-image: linear-gradient(var(--light-black-bg), var(--light-black-bg));
+}
