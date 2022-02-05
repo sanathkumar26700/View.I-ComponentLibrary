@@ -2,7 +2,6 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    overflow-x: hidden;
 }
 
 .hero__container {
@@ -101,4 +100,10 @@ body {
 .installation__content {
     font-size: clamp(1.5rem, 5vw - 1.5rem, 3rem);
     font-weight: 100;
+}
+
+@media (max-width: 400px) {
+    .installation--container {
+        grid-template-areas: "title  title    ....... ........ ....... " " content3 content3 content3 content3 content3" "content1 content1 content1 content1 content1" "iframe1 iframe1 iframe1 iframe1 iframe1" "content2 content2 content2 content2 content2" "iframe2 iframe2 iframe2 iframe2 iframe2";
+    }
 }
