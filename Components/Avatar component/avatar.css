@@ -49,32 +49,6 @@
     width: 5rem;
 }
 
-.avatar-badge {
-    position: relative;
-}
-
-.status-badge {
-    border-radius: 50%;
-    position: absolute;
-    border: 2px solid white;
-}
-
-.badge-online {
-    background-color: green;
-}
-
-.badge-dnd {
-    background-color: #777;
-}
-
-.badge-offline {
-    background-color: red;
-}
-
-.badge-yellow {
-    background-color: yellow;
-}
-
 .avatar-xl .status-badge {
     right: 1.5rem;
     bottom: 1.5rem;
