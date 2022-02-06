@@ -10,4 +10,16 @@
     --badge-dnd: #777;
     --badge-offline: red;
     --badge-yellow: yellow;
+    --light-black-bg: rgba(0, 0, 0, 0.7);
+}
+
+
+/*------sizes-----*/
+
+:root {
+    --size-xl: 20rem;
+    --size-lg: 16rem;
+    --size-std: 12rem;
+    --size-sm: 8rem;
+    --size-xsm: 5rem;
 }
