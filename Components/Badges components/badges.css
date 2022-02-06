@@ -47,3 +47,12 @@
     font-size: 3.25rem;
     position: relative;
 }
+
+.heading>.heading__badge {
+    position: absolute;
+    font-size: 50%;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    top: 0;
+}
