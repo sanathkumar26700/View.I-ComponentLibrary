@@ -1,11 +1,12 @@
 @import '/CSS/abstracts/variables.css';
 @import './Alert component/alert.css';
+@import '/Components/Badges components/badges.css';
 @import './Avatar component/avatar.css';
-@import './Badges component/badges.css';
 @import './Button component/button.css';
 @import 'card components/card-component.css';
 @import './chips component/chips.css';
 @import './image component/image.css';
 @import './images';
 @import './CSS/variables.css';
+@import '/Components/CSS/typography.css';
 @import './input component/input-component.css';
