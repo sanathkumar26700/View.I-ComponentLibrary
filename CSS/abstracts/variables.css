@@ -4,3 +4,10 @@
     --light-black-bg: rgba(0, 0, 0, 0.7);
     --container-color: #f7f7f7;
 }
+
+:root {
+    --badge-online: green;
+    --badge-dnd: #777;
+    --badge-offline: red;
+    --badge-yellow: yellow;
+}
