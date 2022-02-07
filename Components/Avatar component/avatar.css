@@ -1,90 +1,117 @@
-.avatar {
-    display: flex;
-    border-radius: 50%;
-    flex-shrink: 0;
-    justify-content: center;
-    align-items: center;
-}
-
-.avatar>img {
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border: 3px solid white;
-}
-
-.avatar-text {
-    background-color: var(--primary-color);
-    color: var(--secondary-color)
-}
-
-.avatar-xl {
-    height: var(--size-xl);
-    width: var(--size-xl);
-    font-size: 10rem;
-}
-
-.avatar-lg {
-    height: var(--size-lg);
-    width: var(--size-lg);
-    font-size: 8rem;
-}
-
-.avatar-std {
-    height: var(--size-std);
-    width: var(--size-std);
-    font-size: 6rem;
-}
-
-.avatar-sm {
-    height: var(--size-sm);
-    width: var(--size-sm);
-    font-size: 4rem;
-}
-
-.avatar-xsm {
-    height: var(--size-xsm);
-    width: var(--size-xsm);
-    font-size: 2rem;
-}
-
-.avatar-xl .status-badge {
-    right: 1.5rem;
-    bottom: 1.5rem;
-    height: 2.5rem;
-    min-width: 2.5rem;
-}
-
-.avatar-lg .status-badge {
-    right: 1rem;
-    bottom: 1.5rem;
-    height: 2.5rem;
-    min-width: 2.5rem;
-}
-
-.avatar-std .status-badge {
-    height: 2rem;
-    min-width: 2rem;
-    right: 0.5rem;
-    bottom: 1rem;
-}
-
-.avatar-sm .status-badge {
-    height: 1.5rem;
-    min-width: 1.5rem;
-    right: 0.2rem;
-    bottom: 0.5rem;
-}
-
-.avatar-xsm .notification-badge {
-    right: -1rem;
-    top: -1rem;
-    height: 3rem;
-    min-width: 3rem;
-    font-size: 1.75rem;
-    background-color: hotpink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .avatar__round {
+        border-radius: 50%;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .avatar__round>img {
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: 3px solid white;
+    }
+    
+    .avatar__squared {
+        display: flex;
+        flex-shrink: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .avatar__squared.avatar-text {
+        border-radius: 10%;
+    }
+    
+    .avatar__squared.avatar-icon {
+        border-radius: 10%;
+    }
+    
+    .avatar-text {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+    }
+    
+    .avatar__squared>img {
+        border-radius: 10%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: 3px solid white;
+    }
+    
+    .avatar-xl {
+        height: var(--size-xl);
+        width: var(--size-xl);
+        font-size: 10rem;
+    }
+    
+    .avatar-lg {
+        height: var(--size-lg);
+        width: var(--size-lg);
+        font-size: 8rem;
+    }
+    
+    .avatar-std {
+        height: var(--size-std);
+        width: var(--size-std);
+        font-size: 6rem;
+    }
+    
+    .avatar-sm {
+        height: var(--size-sm);
+        width: var(--size-sm);
+        font-size: 4rem;
+    }
+    
+    .avatar-xsm {
+        height: var(--size-xsm);
+        width: var(--size-xsm);
+        font-size: 2rem;
+    }
+    
+    .avatar-xl .status-badge {
+        right: 1.5rem;
+        bottom: 1.5rem;
+        height: 2.5rem;
+        min-width: 2.5rem;
+    }
+    
+    .avatar-lg .status-badge {
+        right: 1rem;
+        bottom: 1.5rem;
+        height: 2.5rem;
+        min-width: 2.5rem;
+    }
+    
+    .avatar-std .status-badge {
+        height: 2rem;
+        min-width: 2rem;
+        right: 0.5rem;
+        bottom: 1rem;
+    }
+    
+    .avatar-sm .status-badge {
+        height: 1.5rem;
+        min-width: 1.5rem;
+        right: 0.2rem;
+        bottom: 0.5rem;
+    }
+    
+    .avatar-icon {
+        background-color: var(--icon-avatar-bg)
+    }
+    
+    .avatar-xsm .notification-badge {
+        right: -1rem;
+        top: -1rem;
+        height: 3rem;
+        min-width: 3rem;
+        font-size: 1.75rem;
+        background-color: hotpink;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
