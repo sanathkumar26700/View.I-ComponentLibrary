@@ -12,6 +12,10 @@
 
 .installation__iframe {
     width: 100%;
+}
+
+.installation__iframe iframe {
+    width: 100%;
     height: auto !important;
     border: none !important;
 }
