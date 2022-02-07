@@ -32,22 +32,9 @@
     margin-left: 2rem;
 }
 
-.container-flex {
-    display: flex;
-    gap: 1rem;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    background-color: var(--container-color);
-    padding: 1.6rem;
-    margin-bottom: 1.5rem;
-}
-
 .container {
     display: flex;
-    gap: 0.5rem;
-    flex-flow: column wrap;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
     width: 90%;
@@ -56,12 +43,10 @@
     margin-bottom: 1.5rem;
 }
 
-.container-flex--mini {
-    display: flex;
-    gap: 0.5rem;
+.container-flex--rows {
+    flex-flow: column wrap;
+}
+
+.container-flex--columns {
     flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    background-color: var(--container-color);
 }
