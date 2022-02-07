@@ -25,7 +25,7 @@
 }
 
 .btn__outlined {
-    border: 0.35rem solid var(--primary-color);
+    border: 0.2rem solid var(--primary-color);
     color: var(--primary-color);
 }
 
@@ -57,6 +57,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.disabled {
+    opacity: 0.5;
 }
 
 

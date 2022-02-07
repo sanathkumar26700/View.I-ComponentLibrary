@@ -1,0 +1,23 @@
+.heading {
+    position: relative;
+}
+
+.heading--xl {
+    font-size: 500%;
+}
+
+.heading--lg {
+    font-size: 400%;
+}
+
+.heading--std {
+    font-size: 300%;
+}
+
+.heading--sm {
+    font-size: 200%;
+}
+
+.heading--xsm {
+    font-size: 100%;
+}

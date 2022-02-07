@@ -3,6 +3,13 @@
     --primary-color-dark: #7c3a00;
     --primary-color-hover: #b3621c;
     --secondary-color: #000;
+}
+
+:root {
+    --badge-online: green;
+    --badge-dnd: #777;
+    --badge-offline: red;
+    --badge-yellow: yellow;
     --light-black-bg: rgba(0, 0, 0, 0.7);
 }
 
