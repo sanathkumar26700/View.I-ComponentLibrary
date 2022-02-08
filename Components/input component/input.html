@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/images/logo--eye.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0b539878e8.js" crossorigin="anonymous"></script>
+
+    <title>View.I</title>
+</head>
+
+<body>
+    <div class="header__container box-shadow">
+        <div class=" logo ">
+            <a class="anchor-style--none " href="/index.html ">
+                <span class="logo--title logo--title-black ">View<span class="dot ">.</span>I
+                <img src="/images/logo--eye.png " alt=" " class="logo--img img-responsive "> </span>
+        </div>
+        </a>
+        <nav class="nav__container">
+            <ul class="list-bulletless social-links">
+                <li><a href="https://twitter.com/sanathkumar267?s=08"><i class="sociallinks__icon-twitter fab fa-twitter"></i></a></li>
+                <li><a href="https://github.com/sanathkumar26700"><i class="sociallinks__icon-github fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/sanath-kumar-g-v-317206193"><i class="sociallinks__icon-linkedin fab fa-linkedin"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="main__container">
+        <aside class="main__container--sidebar side-shadow">
+            <nav class="list-bulletless">
+                <li class="margin-btm-lg">
+                    <a class="anchor-style--none sidebar--listitem-title">Components</a>
+                </li>
+                <li>
+                    <a class="anchor-style--none sidebar--listitem " href="/Components/Alert component/alert.html">Alerts</a>
+                </li>
+                <li>
+                    <a class="anchor-style--none sidebar--listitem" href="/Components/Avatar component/avatar.html">Avatar</a>
+                </li>
+                <li>
+                    <a class="anchor-style--none sidebar--listitem " href="/Components/Badges components/badges.html">Badge</a>
+                </li>
+                <li>
+                    <a class="anchor-style--none sidebar--listitem" href="/Components/Button component/button.html">Button</a>
+                </li>
+                <li>
+                    <a class="anchor-style--none sidebar--listitem " href="/Components/card components/card-components.html">Cards</a>
+                </li>
+                <li>
+                    <a class="anchor-style--none sidebar--listitem " href="/Components/image component/image.html">Image</a>
+                </li>
+                <li>
+                    <a class="anchor-style--none sidebar--listitem active" href="/Components/input component/input-component.html">Input</a>
+                </li>
+            </nav>
+        </aside>
+        <main class="main__container--content ">
+            <h1 class="title">Input</h1>
+            <p class="main--content">lorem ipsum dolor sit amet, consectetur adip lorem, sed do eiusmod tempor incididunt ut lab</p>
+            <h2 class="sub--title">Standard Input</h2>
+            <p class="sub--content">lorem ipsum dolor sit amet, lorem ipsum dolor, sed do eiusmod tempor</p>
+            <div class="container container-flex--rows">
+                <div class="input__container">
+                    <label class="input__label input__label-required" for="input--email">Email</label>
+                    <input class="input__field" type="email" placeholder="yourmail@email.com" id="input--email" required />
+                </div>
+
+                <div class="input__container">
+                    <label class="input__label" for="input--textarea">Textarea</label>
+                    <textarea class="input__field" placeholder="enter text here," cols="30" rows="3" id="input--textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="iframe--container">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28247%2C247%2C247%2C1%29&t=one-light&wt=sharp&l=css&width=792&ds=false&dsyoff=53px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=dm&fs=14px&lh=139%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%250A%250A%2509%2509%2509%253Cdiv%2520class%253D%2522input__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2509%2509%2509%253Clabel%2520class%253D%2522input__label%2520input__label-required%2522%2520for%253D%2522input--email%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input__field%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522yourmail%2540email.com%2522%2520id%253D%2522input--email%2522%2520required%2520%252F%253E%2509%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%250A%250A"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2 class="sub--title">Inputs for validation and errors</h2>
+            <p class="sub--content">lorem ipsum dolor sit amet, lorem ipsum dolor, sed do eiusmod tempor</p>
+            <div class="container container-flex--rows">
+                <div class="input__container input__container--strong">
+                    <label class="input__label">Password</label>
+                    <input class="input__field" type="password" />
+                    <div class="input__instructions">password strength : strong</div>
+                </div>
+
+                <div class="input__container input__container--good">
+                    <label class="input__label">Password</label>
+                    <input class="input__field" type="password" />
+                    <div class="input__instructions">password strength : good</div>
+                </div>
+
+                <div class="input__container input__container--error">
+                    <label class="input__label input__label--required">Password</label>
+                    <input class="input__field" type="password" />
+                    <div class="input__instructions">Minimum 8 characters required!</div>
+                </div>
+            </div>
+            <div class="iframe--container">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28247%2C247%2C247%2C1%29&t=one-light&wt=sharp&l=css&width=792&ds=false&dsyoff=53px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=dm&fs=14px&lh=139%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%253C-Strong%2520Password%2520-%253E%2520%250A%250A%2520%2520%2520%2509%2509%2509%2509%253Cdiv%2520class%253D%2522input__container%2520input__container--strong%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522input__label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input__field%2522%2520type%253D%2522password%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__instructions%2522%253Epassword%2520strength%2520%253A%2520strong%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2509%2509%253C-%2520Warning%2520%252Fgood%2520password%2520strength%2520-%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__container%2520input__container--good%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522input__label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input__field%2522%2520type%253D%2522password%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__instructions%2522%253Epassword%2520strength%2520%253A%2520good%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2509%2509%253C-%2520Wrong%2520Password%2520-%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__container%2520input__container--error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522input__label%2520input__label--required%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input__field%2522%2520type%253D%2522password%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__instructions%2522%253EMinimum%25208%2520characters%2520required%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A%250A%250A"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2 class="sub--title">Disabled inputs</h2>
+            <p class="sub--content">lorem ipsum dolor sit amet, lorem ipsum dolor, sed do eiusmod tempor</p>
+            <div class="container container-flex--rows">
+                <div class="input__container">
+                    <label class="input__label">Email</label>
+                    <input class="input__field" type="email" placeholder="disabled input" disabled />
+                </div>
+
+                <div class="input__container">
+                    <label class="input__label">Textarea</label>
+                    <textarea class="input__field" cols="30" rows="3" placeholder="disabled textarea" disabled></textarea>
+                </div>
+            </div>
+            <div class="iframe--container">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28247%2C247%2C247%2C1%29&t=one-light&wt=sharp&l=css&width=792&ds=false&dsyoff=53px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=dm&fs=14px&lh=139%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2509%2509%2509%2509%253Cdiv%2520class%253D%2522input__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522input__label%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input__field%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522disabled%2520input%2522%2520disabled%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522input__label%2522%253ETextarea%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520class%253D%2522input__field%2522%2520cols%253D%252230%2522%2520rows%253D%25223%2522%2520placeholder%253D%2522disabled%2520textarea%2522%2520disabled%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A%250A"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <footer class="main__container--footer">
+                <a href="/Components/image component/image.html" class="btn"><i class="fas fa-chevron-left btn__icon-left"></i>Images</a>
+                <a href="/Components/rating component/rating.html" class="btn">Rating<i class="fas fa-chevron-right btn__icon-right"></i></a>
+            </footer>
+        </main>
+    </section>
+
+</body>
+
+</html>
