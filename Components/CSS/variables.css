@@ -12,6 +12,8 @@
     --badge-yellow: yellow;
     --light-black-bg: rgba(0, 0, 0, 0.7);
     --icon-avatar-bg: rgba(119, 119, 119, 0.493);
+    --card__action--btn-hover: #d6d6d6;
+    --card__action--btn-bg: white;
 }
 
 
@@ -23,4 +25,8 @@
     --size-std: 12rem;
     --size-sm: 8rem;
     --size-xsm: 5rem;
+}
+
+:root {
+    --box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.212);
 }
