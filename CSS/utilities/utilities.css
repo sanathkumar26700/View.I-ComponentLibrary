@@ -61,6 +61,7 @@
     height: 40%;
     display: flex;
     flex-shrink: 0;
+}
 
 .container-grid {
     display: grid;
@@ -72,5 +73,4 @@
     padding: 1.6rem;
     margin-bottom: 1.5rem;
     grid-gap: 1rem;
-
 }
