@@ -81,7 +81,6 @@
     font-size: 2rem;
     height: 4rem;
     width: 4rem;
-    /* padding: 1.4rem; */
     cursor: pointer;
     border-radius: 50%;
     display: inline-flex;
@@ -228,6 +227,3 @@
 .btn-plus {
     display: none;
 }
-
-
-/* //use clamp for fonts */
