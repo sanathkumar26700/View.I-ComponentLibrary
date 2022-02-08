@@ -1,47 +1,86 @@
-:root {
-    --input-border: #8b8a8b;
-    --input-focus-h: 245;
-    --input-focus-s: 100%;
-    --input-focus-l: 42%;
+.input__container {
+    width: 100%;
+    margin: 1rem 0 0.5rem;
+    font-size: 1.8rem;
 }
 
-.input {
-    font-size: 1rem;
-    font-size: max(1.6rem, 1em);
-    font-family: inherit;
-    padding: 0.25em 0.5em;
-    background-color: #fff;
-    border: 2px solid var(--input-border);
-    transition: 180ms box-shadow ease-in-out;
-    border-radius: 4px;
+.input__label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
 }
 
-.input:not(textarea) {
-    line-height: 1;
-    height: 2.25rem;
+.input__label--required::after {
+    content: "*";
+    color: var(--negative-color);
 }
 
-input[type="file"] {
-    font-size: 0.9em;
-    padding-top: 0.35rem;
+.input__field {
+    display: block;
+    width: 100%;
+    padding: 0.65rem 1rem;
+    border: 2px solid var(--secondary-color);
 }
 
-.input[readonly] {
-    border-style: dotted;
-    cursor: not-allowed;
-    color: #777;
+.input__field:focus {
+    box-shadow: var(--input-box-shadow);
 }
 
-textarea.input {
-    resize: vertical;
+.input__field:disabled {
+    background-color: var(--icon-avatar-bg);
 }
 
-.input:focus {
-    outline: 3px solid transparent;
-    box-shadow: 0 0 0 3px hsla(var(--input-focus-h), var(--input-focus-s), calc(var(--input-focus-l) + 40%), 0.8);
-    border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
+.input__container--strong {
+    color: var(--positive-color);
 }
 
-label {
-    font-size: 2rem;
+.input__container--strong input {
+    border: 2px solid var(--positive-color);
+}
+
+.input__container--strong input::placeholder {
+    color: var(--positive-color);
+}
+
+.input__container--strong input:focus {
+    border: 2px solid var(--secondary-color);
+    box-shadow: var(--input-box-shadow);
+}
+
+.input__container--good {
+    color: var(--warning-color);
+}
+
+.input__container--good input {
+    border: 2px solid var(--warning-color);
+}
+
+.input__container--good input::placeholder {
+    color: var(--warning-color);
+}
+
+.input__container--good input:focus {
+    border: 2px solid var(--secondary-color);
+    box-shadow: var(--input-box-shadow);
+}
+
+.input__container--error {
+    color: var(--negative-color);
+}
+
+.input__container--error input {
+    border: 2px solid var(--negative-color);
+}
+
+.input__container--error input:focus {
+    border: 2px solid var(--secondary-color);
+    box-shadow: var(--input-box-shadow);
+}
+
+.input__container--error input::placeholder {
+    border: 2px solid var(--negative-color);
+}
+
+.input__instructions {
+    font-size: 1.4rem;
 }
