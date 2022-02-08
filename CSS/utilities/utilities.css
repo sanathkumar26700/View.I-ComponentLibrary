@@ -61,4 +61,16 @@
     height: 40%;
     display: flex;
     flex-shrink: 0;
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: var(--container-color);
+    padding: 1.6rem;
+    margin-bottom: 1.5rem;
+    grid-gap: 1rem;
+
 }
