@@ -13,16 +13,23 @@
     cursor: pointer;
 }
 
-.sidebar--listitem-title {
-    border-bottom: 1.5px solid var(--primary-color);
+.sidebar--listitem-sm {
+    font-size: 62%;
 }
 
-.sidebar--listitem:hover {
+.sidebar--listitem-title {
+    border-bottom: 1.5px solid var(--primary-color);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.sidebar--listitem:hover,
+.sidebar--listitem-title--animated:hover {
     background-color: var(--light-black-bg);
     color: white;
 }
 
-.sidebar--listitem:active {
+.sidebar--listitem:active,
+.sidebar--listitem-title--animated:active {
     background-color: var(--light-black-bg);
     color: var(--primary-color);
 }
