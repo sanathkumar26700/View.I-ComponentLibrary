@@ -15,7 +15,7 @@
 }
 
 .rating--star:hover~.rating--star {
-    opacity: 50%;
+    opacity: 20%;
 }
 
 .rating--active {
