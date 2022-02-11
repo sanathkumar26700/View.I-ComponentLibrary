@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #e67e22;
-    --primary-color-dark: #7c3a00;
-    --primary-color-hover: #b3621c;
+    --primary-color: #e67f10d2;
+    --primary-color-dark: #b3621c;
+    --primary-color-hover: #e67e20;
     --secondary-color: #000;
 }
 
@@ -12,6 +12,7 @@
     --badge-yellow: yellow;
     --light-black-bg: rgba(0, 0, 0, 0.7);
     --light-white-bg: rgb(255, 255, 255);
+    --icon-btn-color: #888;
     --icon-avatar-bg: rgba(119, 119, 119, 0.493);
     --card__action--btn-hover: #d6d6d6;
     --card__action--btn-bg: white;
