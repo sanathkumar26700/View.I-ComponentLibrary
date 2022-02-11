@@ -1,0 +1,24 @@
+.rating__container {
+    display: flex;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.rating--star {
+    font-size: inherit;
+    opacity: 100%;
+}
+
+.rating__container:hover {
+    opacity: 100%;
+    color: gold;
+}
+
+.rating--star:hover~.rating--star {
+    opacity: 20%;
+}
+
+.rating--active {
+    opacity: 100%;
+    color: gold;
+}

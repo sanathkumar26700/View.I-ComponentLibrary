@@ -1,0 +1,58 @@
+.grid__columns--25-25-25-25,
+.grid__rows,
+.grid__columns--50-50,
+.grid__columns--70-30,
+.grid__columns--30-70 {
+    display: grid;
+    width: 100%;
+}
+
+.grid__rows {
+    grid-template-rows: 1fr;
+}
+
+.grid__columns--25-25-25-25 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid__columns--50-50 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid__columns--70-30 {
+    grid-template-columns: 70% 30%;
+}
+
+.grid__columns--30-70 {
+    grid-template-columns: 30% 70%;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    width: 100%;
+    color: white;
+    font: size 5rem;
+    font-weight: 800;
+    padding: 10rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background-color: var(--primary-color);
+}
+
+.box2 {
+    background-color: var(--primary-color-hover);
+}
+
+.box3 {
+    background-color: var(--primary-color-dark);
+}
+
+.box4 {
+    background-color: var(--primary-color);
+}
