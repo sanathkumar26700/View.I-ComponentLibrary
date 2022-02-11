@@ -26,6 +26,7 @@
 .sidebar--listitem-title--animated:hover {
     background-color: var(--light-black-bg);
     color: white;
+    border-radius: 0.6rem;
 }
 
 .sidebar--listitem:active,
