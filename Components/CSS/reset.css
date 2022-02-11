@@ -74,5 +74,5 @@ select {
 
 html {
     font-size: 62.5%;
-    font-family: 'Lato', 'Arial', FontAwesome, sans-serif;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, 'Lato', 'Arial', FontAwesome, sans-serif;
 }
