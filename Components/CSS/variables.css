@@ -1,8 +1,8 @@
 :root {
     --primary-color: #e67f10d2;
-    --primary-color-dark: #b3621c;
+    --primary-color-dark: #7a3b04;
     --primary-color-hover: #e67e20;
-    --secondary-color: #000;
+    --secondary-color: #888;
 }
 
 :root {
@@ -16,6 +16,13 @@
     --icon-avatar-bg: rgba(119, 119, 119, 0.493);
     --card__action--btn-hover: #d6d6d6;
     --card__action--btn-bg: white;
+    --red-color: #fd4e4e;
+    --red--dark-color: rgb(216, 66, 66);
+    --red--light-color: #ffa3a3;
+    --green-color: rgb(56, 194, 56);
+    --green--light-color: rgb(123, 255, 123);
+    --gray-color: rgb(114, 114, 114);
+    --gray--light-color: rgb(204, 204, 204);
 }
 
 :root {
@@ -38,4 +45,6 @@
 
 :root {
     --box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.212);
+    ---box-shadow--card: 5px 5px 15px rgb(0 0 0 / 5%);
+    --border-color: #ecececec;
 }
