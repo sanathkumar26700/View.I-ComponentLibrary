@@ -9,6 +9,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: center;
     color: var(--icon-btn-color);
 }
 
@@ -68,6 +69,17 @@
 
 
 /*Add transitions*/
+
+.btn--animated:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    transition: background-color 0.2s;
+}
+
+.btn--animated:active {
+    box-shadow: 0px 0px 0px white;
+    transform: translateY(2px);
+}
 
 .btn__primary--animated:hover {
     background-color: var(--primary-color-hover);
