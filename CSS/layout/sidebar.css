@@ -14,7 +14,8 @@
 }
 
 .sidebar--listitem-sm {
-    font-size: 62%;
+    font-size: 71%;
+    font-weight: 600;
 }
 
 .sidebar--listitem-title {
@@ -27,6 +28,8 @@
     background-color: var(--light-black-bg);
     color: white;
     border-radius: 0.6rem;
+    transform: translateX(1.5rem);
+    transition: all 0.1s;
 }
 
 .sidebar--listitem:active,
