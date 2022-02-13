@@ -48,11 +48,40 @@
     position: relative;
 }
 
-.heading>.heading__badge {
+.badge--text {
+    font-size: 0.7em;
+    font-weight: 600;
+    padding: 0.16rem 0.6rem;
+    background: #cfcfcf;
+    border-radius: 0.3rem;
+}
+
+.heading>.badge--text {
     position: absolute;
     font-size: 50%;
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    padding: 0 0.5rem;
     top: 0;
+}
+
+.badge--red {
+    background: var(--red--light-color);
+    color: var(--red-color);
+    border-color: var(--red-color);
+}
+
+.badge--green {
+    background: var(--green--light-color);
+    color: var(--green-color);
+    border-color: var(--green-color);
+}
+
+.badge--gray {
+    background: var(--gray--light-color);
+    color: var(--gray-color);
+    border-color: var(--gray-color);
+}
+
+.badge--primary {
+    background: var(--primary-color);
+    color: var(--primary-color-dark);
+    border-color: var(--primary-color-dark);
 }
