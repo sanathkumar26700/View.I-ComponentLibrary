@@ -23,17 +23,15 @@ body {
     align-items: flex-start;
 }
 
-.hero__primary--container>* {
-    font-weight: 300;
-}
-
 .hero__primary--text {
     font-size: clamp(3rem, 10vw - 4rem, 5.25rem);
     margin-bottom: 1rem;
+    font-weight: 350;
 }
 
 .hero__secondary--text {
     font-size: clamp(1.5rem, 7.5vw - 1.5rem, 2rem);
+    font-weight: 450;
     width: 50%;
 }
 
