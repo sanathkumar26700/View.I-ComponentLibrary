@@ -1,5 +1,6 @@
 .card {
     display: flex;
+    height: fit-content;
     border-radius: 1.6rem;
     font-family: roboto, arial, helvetica;
     background-color: white;
