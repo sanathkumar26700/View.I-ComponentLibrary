@@ -6,7 +6,7 @@
 }
 
 .logo--title {
-    font-size: clamp(4rem, 8vw - 1rem, 6rem);
+    font-size: clamp(2.5rem, 8vw - 1rem, 6rem);
     color: whitesmoke;
     font-weight: 700;
 }
