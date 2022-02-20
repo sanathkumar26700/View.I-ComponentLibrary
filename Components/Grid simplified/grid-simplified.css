@@ -32,10 +32,10 @@
 .box3,
 .box4 {
     width: 100%;
+    min-height: 15rem;
     color: white;
     font: size 5rem;
     font-weight: 800;
-    padding: 10rem 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
