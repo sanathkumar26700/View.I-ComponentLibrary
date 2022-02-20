@@ -8,15 +8,41 @@
     padding: 3rem;
 }
 
+.content__container {
+    padding: 0rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+.Content--title {
+    font-size: 2rem;
+}
+
+#content--btn-up {
+    display: none;
+}
+
+#content--btn-down {
+    display: block;
+}
+
 
 /*-----------------------------media queries----------------------------------------------*/
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .main__container {
         grid-template-columns: 1fr;
     }
     .main__container--sidebar {
         display: none;
+    }
+    .content__container {
+        padding: 0rem 1.75rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .main__container--content {
         padding: 2rem 1rem 2rem 1rem;
