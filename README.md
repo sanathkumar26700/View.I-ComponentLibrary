@@ -25,6 +25,10 @@ Install the library in your CSS file by inserting the following import tag at th
 
 
 
+https://user-images.githubusercontent.com/53991484/155003466-bf60df9c-8322-4f5b-aff0-e6b09c96320b.mp4
+
+
+
 
 ## Documentation
 
