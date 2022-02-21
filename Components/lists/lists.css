@@ -1,0 +1,28 @@
+.container ul,
+.container li {
+    font-size: 2rem;
+}
+
+.list--alphabetical {
+    list-style: lower-alpha;
+}
+
+.list-item--stacked {
+    padding: 0.5rem 2rem;
+    border: 1px solid var(--gray-color);
+    display: flex;
+    flex-direction: column;
+    background: var(--light-white-bg);
+}
+
+.main--notification {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.sub--notification {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+}
