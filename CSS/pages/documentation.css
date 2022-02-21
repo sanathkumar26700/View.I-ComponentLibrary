@@ -1,7 +1,7 @@
 .main__container {
     margin: auto;
     display: grid;
-    grid-template-columns: 23rem 1fr 15rem;
+    grid-template-columns: 25rem 1fr 13rem;
 }
 
 .main__container--content {

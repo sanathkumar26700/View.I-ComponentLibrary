@@ -1,9 +1,10 @@
 .main__container--sidebar {
     padding: 1.5rem 2rem;
     font-size: 3rem;
-    height: calc(100vh - 2rem);
+    height: calc(100vh - 4rem);
     position: sticky;
     top: 0;
+    overflow: auto;
 }
 
 .sidebar--listitem {
