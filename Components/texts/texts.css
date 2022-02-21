@@ -1,0 +1,65 @@
+.heading__container {
+    font-size: 200%;
+    align-items: flex-start;
+}
+
+.heading__container h5,
+.heading__container h6 {
+    margin: 0;
+}
+
+.font-size--xl {
+    font-size: 6rem;
+}
+
+.font-size--lg {
+    font-size: 5rem;
+}
+
+.font-size--std {
+    font-size: 4rem;
+}
+
+.font-size--sm {
+    font-size: 3rem;
+}
+
+.font-size--xsm {
+    font-size: 2rem;
+}
+
+.font-weight--200 {
+    font-weight: 200;
+}
+
+.font-weight--400 {
+    font-weight: 400;
+}
+
+.font-weight--600 {
+    font-weight: 600;
+}
+
+.font-weight--800 {
+    font-weight: 800;
+}
+
+.font-weight--1000 {
+    font-weight: 1000;
+}
+
+.text--centered {
+    text-align: center;
+}
+
+.primary-color--text {
+    color: var(--primary-color);
+}
+
+.secondary-color--text {
+    color: var(--secondary-color);
+}
+
+.gray-text--text {
+    color: var(--gray-color);
+}
