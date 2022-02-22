@@ -53,6 +53,34 @@
     font-size: 1.5rem;
 }
 
+.side--bar-content {
+    width: 100%;
+    display: none;
+}
+
+#btn--menu-open {
+    display: block
+}
+
+#btn--menu-close {
+    display: none;
+}
+
+.main__body {
+    padding: 1.5rem;
+    width: 100%;
+    background-color: var(--light-white-bg);
+}
+
+.main--content {
+    display: block;
+}
+
+.filler--content {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
 @media (max-width: 400px) {
     .nav__container--nav-list>* {
         font-size: 75%;
