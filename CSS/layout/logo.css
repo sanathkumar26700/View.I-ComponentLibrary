@@ -12,7 +12,7 @@
 }
 
 .logo--title-black {
-    color: var(--light-black-bg);
+    color: var(--logo-toggle);
 }
 
 .dot {

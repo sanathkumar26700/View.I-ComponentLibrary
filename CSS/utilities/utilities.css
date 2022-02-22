@@ -8,7 +8,7 @@
 
 .anchor-style--none {
     text-decoration: none;
-    color: #333;
+    color: var(--foreground-color)
 }
 
 .active {

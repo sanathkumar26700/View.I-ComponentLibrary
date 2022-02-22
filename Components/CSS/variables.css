@@ -23,6 +23,19 @@
     --green--light-color: #7BFF7B;
     --gray-color: #727272;
     --gray--light-color: #CCCCCC;
+    --gray--dark-color: rgb(185, 182, 182);
+}
+
+:root {
+    --background-color: #fff;
+    --foreground-color: #555;
+}
+
+.dark--mode {
+    --background-color: rgb(41, 39, 39);
+    --foreground-color: rgb(143, 143, 143);
+    --logo-toggle: whitesmoke;
+    --container-color: #444;
 }
 
 :root {

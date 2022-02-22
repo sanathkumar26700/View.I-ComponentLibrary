@@ -1,7 +1,12 @@
 html,
 body {
-    background-color: #fff;
-    color: #555;
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+}
+
+#mode--btn {
+    font-size: 160%;
+    color: var(--foreground-color);
 }
 
 .hero__container {

@@ -20,7 +20,7 @@
 }
 
 .nav__container-bg {
-    background-color: var(--light-white-bg);
+    background-color: var(--background-color);
 }
 
 .searchbar__container {

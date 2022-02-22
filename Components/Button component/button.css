@@ -21,9 +21,8 @@
 
 .btn__secondary {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    background-color: var(--gray-light-color);
+    background-color: var(--gray--light-color);
     color: var(--secondary-color);
-    opacity: 0.-color6;
 }
 
 .btn__outlined {
@@ -63,6 +62,7 @@
 
 .disabled {
     opacity: 0.5;
+    cursor: default;
 }
 
 
@@ -88,16 +88,14 @@
     transition: background-color 0.2s;
 }
 
-.btn__primary--animated:active {
-    box-shadow: 0px 0px 0px white;
-    transform: translateY(2px);
-}
-
 .btn__secondary--animated:hover {
-    opacity: 1;
+    background-color: var(--gray--dark-color);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
+    transition: background-color 0.2s;
 }
 
+.btn__primary--animated:active,
 .btn__secondary--animated:active {
     box-shadow: 0px 0px 0px white;
     transform: translateY(2px);
