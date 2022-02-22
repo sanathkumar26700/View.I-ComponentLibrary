@@ -2,7 +2,7 @@
 # View.I
 
 A minimalistic and lightweight UI Component library with everything one needs for their website.
-The components are built using just HTML & CSS to make it easy to use in any project and are also mobile responsive (under 400px) and can used by just copy-pasting the appropriate code.
+The components are built using just HTML & CSS to make it easy to use in any project and are also mobile **responsive** (under 400px) and can used by just copy-pasting the appropriate code.
 
 
 ## Installation
@@ -25,15 +25,19 @@ Install the library in your CSS file by inserting the following import tag at th
 
 
 
-https://user-images.githubusercontent.com/53991484/155003466-bf60df9c-8322-4f5b-aff0-e6b09c96320b.mp4
+
+
+https://user-images.githubusercontent.com/53991484/155161522-f8e5f9de-388d-4eef-8591-3787b3c144bc.mp4
+
 
 
 
 
 ## Documentation
 
-[View.I component library ](https://viewi.netlify.app/)
+[View.I component library ](https://viewi.netlify.app/) 
 
+Documentation is has **dark mode** and **light mode** too.
 
 
 ## Components
