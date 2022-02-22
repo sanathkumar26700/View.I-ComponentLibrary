@@ -26,10 +26,13 @@
 }
 
 :root {
-    --warning-color: #F8C361;
-    --positive-color: #38C238;
-    --negative-color: #FF5D75;
+    --warning-color: #ff9204;
+    --positive-color: #1b7052;
+    --negative-color: #dc3545;
     --input-box-shadow: 0 0 0 1px var(--icon-avatar-bg);
+    --positive-bg: #84f1c9;
+    --negative-bg: #fcc5c5;
+    --warning-bg: #ffe7c5;
 }
 
 

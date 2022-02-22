@@ -1,5 +1,5 @@
-.alert {
-    width: 80%;
+.toast {
+    min-width: 33.33%;
     margin: 2rem auto;
     font-size: 1.5rem;
     padding: 1rem;
@@ -8,36 +8,42 @@
     position: relative;
 }
 
-.alert-icon {
+.toast-icon {
     margin-right: 0.8rem;
 }
 
-.alert-primary {
+.toast--link {
+    margin-left: 1.5rem;
+    font-style: none;
+    color: inherit;
+}
+
+.toast-primary {
     background-color: var(--primary-color);
     color: var(--primary-color-dark);
 }
 
-.alert-secondary {
+.toast-secondary {
     background-color: var(--gray--light-color);
     color: var(--secondary-color);
 }
 
-.alert-positive {
+.toast-positive {
     background-color: var(--positive-bg);
     color: var(--positive-color);
 }
 
-.alert-danger {
+.toast-danger {
     color: var(--negative-color);
     background-color: var(--negative-bg);
 }
 
-.alert-warning {
+.toast-warning {
     color: var(--warning-color);
     background-color: var(--warning-bg);
 }
 
-.btn-alert__close {
+.btn-toast__close {
     border: 1px solid transparent;
     margin: 0.75rem;
     position: absolute;
@@ -50,10 +56,16 @@
     z-index: 9999;
 }
 
-.btn-alert__close:focus {
+.btn-toast__close:focus {
     box-shadow: 0 0 0 2px black;
 }
 
-.btn-alert__close:hover {
+.btn-toast__close:hover {
     opacity: 1;
+}
+
+.toast--demo {
+    position: fixed;
+    bottom: 2.5rem;
+    display: none;
 }
