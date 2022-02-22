@@ -4,13 +4,11 @@
 @import './Avatar component/avatar.css';
 @import './Button component/button.css';
 @import './card components/card-components.css';
-@import './chips component/chips.css';
 @import './image component/image.css';
 @import './Rating-component/rating.css';
 @import './Slider-component/slider.css';
 @import './Navbar component/navbar.css';
 @import './Grid simplified/grid-simplified.css';
-@import './images';
 @import './CSS/variables.css';
 @import '/Components/CSS/typography.css';
 @import './input component/input-component.css';
