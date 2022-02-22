@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--light-black-bg);
-    z-index: 999999999999999999999;
+    z-index: 99999;
 }
 
 .modal {
