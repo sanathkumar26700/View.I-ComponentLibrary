@@ -18,23 +18,23 @@
 }
 
 .alert-secondary {
-    background-color: #eaeaec;
-    color: #696b79;
+    background-color: var(--gray--light-color);
+    color: var(--secondary-color);
 }
 
 .alert-positive {
-    background-color: #84f1c9;
-    color: #1b7052;
+    background-color: var(--positive-bg);
+    color: var(--positive-color);
 }
 
 .alert-danger {
-    color: #dc3545;
-    background-color: #fcc5c5;
+    color: var(--negative-color);
+    background-color: var(--negative-bg);
 }
 
 .alert-warning {
-    color: #ff9204;
-    background-color: #ffe7c5;
+    color: var(--warning-color);
+    background-color: var(--warning-bg);
 }
 
 .btn-alert__close {
