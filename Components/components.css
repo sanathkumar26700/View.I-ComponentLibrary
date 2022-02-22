@@ -15,5 +15,7 @@
 @import '/Components/CSS/typography.css';
 @import './input component/input-component.css';
 @import './toasts/toasts.css';
+@import './texts/texts.css';
+@import './lists/lists.css';
 @import './modal/modal.css';
 @import './CSS/reset.css';
