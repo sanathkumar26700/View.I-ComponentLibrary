@@ -49,6 +49,10 @@ https://user-images.githubusercontent.com/53991484/155003466-bf60df9c-8322-4f5b-
  - [Slider](https://viewi.netlify.app/components/slider-component/slider)
  - [Navbar](https://viewi.netlify.app/components/navbar%20component/navbar)
  - [Grid Simplified](https://viewi.netlify.app/components/grid%20simplified/grid-simplified)
+ - [Texts](https://viewi.netlify.app/components/texts/texts)
+ - [Lists](https://viewi.netlify.app/components/lists/lists)
+ - [Toasts](https://viewi.netlify.app/components/toasts/toasts)
+ - [Modal](https://viewi.netlify.app/components/modal/modal)
 
 ## Tech used
 
