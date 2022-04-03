@@ -1,11 +1,14 @@
 .toast {
     min-width: 33.33%;
+    display: grid;
     margin: 2rem auto;
     font-size: 1.5rem;
     padding: 1rem;
     border-radius: 0.5rem;
     font-weight: 500;
     position: relative;
+    grid-template-columns: 5% 45% 40% 10%;
+    align-items: center;
 }
 
 .toast-icon {
@@ -45,15 +48,11 @@
 
 .btn-toast__close {
     border: 1px solid transparent;
-    margin: 0.75rem;
-    position: absolute;
-    top: 0;
-    right: 0;
     opacity: 0.5;
     cursor: pointer;
     background: none;
     color: inherit;
-    z-index: 9999;
+    justify-self: end;
 }
 
 .btn-toast__close:focus {

@@ -9,6 +9,6 @@ toastExampleCloseBtn.addEventListener("click", () => {
 })
 
 demoBtn.addEventListener("click", () => {
-    demoToast.style.display = "block";
+    demoToast.style.display = "grid";
     setTimeout(() => demoToast.style.display = "none", 3000)
 })
