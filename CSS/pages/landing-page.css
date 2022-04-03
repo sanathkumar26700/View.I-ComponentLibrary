@@ -49,8 +49,8 @@ body {
     width: 50%;
 }
 
-.btn__outlined-white {
-    color: white !important;
+.hero__primary--container .btn--container .btn__outlined-white {
+    color: white;
 }
 
 .social-links--bottom {
