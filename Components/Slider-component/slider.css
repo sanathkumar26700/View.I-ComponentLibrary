@@ -19,8 +19,8 @@
 
 .slider::-webkit-slider-thumb {
     appearance: none;
-    width: clamp(1.5rem, 6vw - 1.25rem, 2.5rem);
-    height: clamp(1.5rem, 6vw - 1.25rem, 2.5rem);
+    width: clamp(1.5rem, 6vw - 1.25rem, 2.25rem);
+    height: clamp(1.5rem, 6vw - 1.25rem, 2.25rem);
     border-radius: 50%;
     background: var(--primary-color);
     cursor: pointer;
